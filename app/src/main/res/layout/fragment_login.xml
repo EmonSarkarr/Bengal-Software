@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".LoginFragment">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bengalsoftwarelogo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bengal_software"
+            android:textColor="@color/purple_200"
+            android:gravity="center"
+            android:textSize="40dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:hint="@string/email_hint"
+            android:textColorHint="@color/blue"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:textSize="30dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Password"
+            android:textColorHint="@color/blue"
+            android:textSize="30dp"
+            android:textColor="@color/blue"
+            android:drawableLeft="@drawable/ic_baseline_lock_24" />
+
+        <Button
+            android:id="@+id/loginBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login"
+            android:textSize="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forget_your_password"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:text="@string/signup_msg"
+            android:layout_gravity="center"
+            android:textSize="26dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:hint="@string/error_tv"
+            android:textColorHint="@color/blue"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</layout>

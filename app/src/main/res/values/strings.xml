@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bengal Software</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bengal_software">BENGAL SOFTWARE</string>
+    <string name="email_hint">Enter Your Email Address</string>
+    <string name="login">login</string>
+    <string name="signup_msg">Don\'t have an account? Sign Up</string>
+    <string name="forget_your_password">Forget Your password?</string>
+    <string name="error_tv">Error TV</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="enter_your_email_id">Enter Your Email Id</string>
+    <string name="enter_your_password">Enter Your New Password</string>
+    <string name="enter_your_your_user_name">Enter Your Your User Name</string>
+    <string name="sign_upBTN">Sign UP</string>
+    <string name="already_have_a_account_sign_here">Already have a account? Sign Here</string>
+</resources>
