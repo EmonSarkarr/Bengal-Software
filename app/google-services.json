@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589241945426",
+    "project_id": "bengal-software-97e1a",
+    "storage_bucket": "bengal-software-97e1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589241945426:android:4843402fe252aad3d4be8b",
+        "android_client_info": {
+          "package_name": "com.example.bengalsoftware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589241945426-85urgctkp4a8oc3v163d3651cd9nta8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_iapjYInzX4mibMSXP0qwy_11YmwrcUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589241945426-85urgctkp4a8oc3v163d3651cd9nta8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
