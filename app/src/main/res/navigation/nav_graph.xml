@@ -9,12 +9,22 @@
         android:id="@+id/homeFragment"
         android:name="com.example.bengalsoftware.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/login_action"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.bengalsoftware.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/login_to_home_Action"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/registrationFragment"
         android:name="com.example.bengalsoftware.RegistrationFragment"
