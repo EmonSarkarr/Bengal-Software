@@ -47,8 +47,13 @@ public class LoginFragment extends Fragment {
         loginViewModel.getErrMsgLiveData().observe(getViewLifecycleOwner(), errMsg -> {
                     binding.errorMsgTV.setText(errMsg);
                 });
+
+        binding.registerBtn.setOnClickListener(view ->
+                Navigation.findNavController(container).navigate(R.id.login_to_registrationAction)
+                );
         return binding.getRoot();
     }
+
     private void authenticate() {
         final String email = binding.emailInputET.getText().toString();
         final String password = binding.passwordInputET.getText().toString();
@@ -59,4 +64,5 @@ public class LoginFragment extends Fragment {
             loginViewModel.register(email, password);
         }
     }
+
 }
