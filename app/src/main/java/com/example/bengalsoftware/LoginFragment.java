@@ -5,7 +5,6 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,7 +34,6 @@ public class LoginFragment extends Fragment {
             authenticate();
         });
 
-
         loginViewModel.getStateLiveData()
                 .observe(getViewLifecycleOwner(), authState -> {
                     if (authState == LoginViewModel.AuthState.AUTHENTICATED) {
@@ -48,7 +46,7 @@ public class LoginFragment extends Fragment {
                     binding.errorMsgTV.setText(errMsg);
                 });
 
-        binding.registerBtn.setOnClickListener(view ->
+        binding.registerBtn.setOnClickListener(view ->                                                  //navigate
                 Navigation.findNavController(container).navigate(R.id.login_to_registrationAction)
                 );
         return binding.getRoot();

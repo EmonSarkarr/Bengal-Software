@@ -18,4 +18,6 @@
     <string name="welcome_to_bengal_software">Welcome To Bengal Software</string>
     <string name="sign_in">Sign In</string>
     <string name="enter_your_password1">Enter Your Password</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
 </resources>

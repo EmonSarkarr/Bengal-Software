@@ -98,15 +98,15 @@
              android:id="@+id/registerBtn"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:text="Register">
+             android:text="@string/register">
 
          </Button>
 
-         <EditText
+         <TextView
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:id="@+id/errorMsgTV"
-             android:textColor="@color/blue"
+             android:textColor="@color/black"
              android:hint="@string/error_tv"
              android:textColorHint="@color/blue"
              android:gravity="center"
